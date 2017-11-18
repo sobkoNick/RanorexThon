@@ -71,3 +71,13 @@ C:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\
 C:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\bin\Debug\Ranorex.Plugin.WinForms.xml
 C:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\bin\Debug\Ranorex.Plugin.Wpf.xml
 C:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\obj\x86\Debug\Hackaton.csproj.CoreCompileInputs.cache
+C:\Users\Mykola\Documents\RanorexThon\Hackaton\bin\Debug\Hackaton.rxtmg
+C:\Users\Mykola\Documents\RanorexThon\Hackaton\bin\Debug\Hackaton.rxtst
+C:\Users\Mykola\Documents\RanorexThon\Hackaton\bin\Debug\RepositoryImages\HackatonRepositoryd62d42c1.rximgres
+C:\Users\Mykola\Documents\RanorexThon\Hackaton\bin\Debug\Hackaton.exe.config
+C:\Users\Mykola\Documents\RanorexThon\Hackaton\bin\Debug\Hackaton.exe
+C:\Users\Mykola\Documents\RanorexThon\Hackaton\bin\Debug\Hackaton.pdb
+C:\Users\Mykola\Documents\RanorexThon\Hackaton\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Mykola\Documents\RanorexThon\Hackaton\obj\x86\Debug\Hackaton.csprojResolveAssemblyReference.cache
+C:\Users\Mykola\Documents\RanorexThon\Hackaton\obj\x86\Debug\Hackaton.exe
+C:\Users\Mykola\Documents\RanorexThon\Hackaton\obj\x86\Debug\Hackaton.pdb

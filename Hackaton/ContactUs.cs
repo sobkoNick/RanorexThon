@@ -111,14 +111,6 @@ namespace Hackaton
             repo.ComHackatonEpamTahackaton.Wrap.Touch();
             Delay.Milliseconds(500);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key '{BACK}' press on 'ComHackatonEpamTahackaton.CartActivity'.", repo.ComHackatonEpamTahackaton.CartActivityInfo, new RecordItemIndex(8));
-            repo.ComHackatonEpamTahackaton.CartActivity.PressKeys("{BACK}");
-            Delay.Milliseconds(100);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key '{BACK}' press on 'ComHackatonEpamTahackaton.ContactUsActivity'.", repo.ComHackatonEpamTahackaton.ContactUsActivityInfo, new RecordItemIndex(9));
-            repo.ComHackatonEpamTahackaton.ContactUsActivity.PressKeys("{BACK}");
-            Delay.Milliseconds(100);
-            
         }
 
 #region Image Feature Data
