@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="a024514c799a10"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Mykola"
+		rxversion="7.2.1.0"
+		host="DESKTOP-6SSJG4S"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="uk-UA"
+		dtnlanguage="uk-UA"
+		screenresolution="1366x768"
+		timestamp="18.11.2017 19:32:00"
+		timestampiso="2017-11-18T17:32:00"
+		endtime="18.11.2017 19:33:02"
+		timeoutfactor="1"
+		module="CheckIfNumberOfProductsChangeAfterBuy">
+		<detail>
+			CheckIfNumberOfProductsChangeAfterBuy
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.927"
+			timeRelativeToTestModuleStartTime="00:00.928"
+			timeWallClock="19:32:01"
+			time="00:00.927"
+			level="Info"
+			category="Application">
+			<message>
+				Run mobile app 'com.hackaton.epam.tahackaton' on device 'emulator-5554'.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\CheckIfNumberOfProductsChangeAfterBuy.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.299"
+			timeRelativeToTestModuleStartTime="00:06.300"
+			timeWallClock="19:32:07"
+			time="00:06.299"
+			level="Info"
+			category="Set Value">
+			<message>
+				Setting attribute Text to 'hackaton.epam.ta@gmail.com' on item 'ComHackatonEpamTahackaton.LoginForm.Email'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='LoginActivity']//container[@rid='login_form']/container[@rid='email_login_form']//text[@rid='email']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.LoginForm.Email"
+				id="4740653efc114d29807337f9c1c963f2"
+				timeout="90000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\CheckIfNumberOfProductsChangeAfterBuy.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.054"
+			timeRelativeToTestModuleStartTime="00:10.055"
+			timeWallClock="19:32:10"
+			time="00:10.054"
+			level="Warn"
+			category="Qt">
+			<message>
+				Failed to instrument Qt process. Please make sure you have enough privileges to access the process and a supported version of Qt.<br/>Process: 'qemu-system-i386' (pid 2472)<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="QtWindow"
+				showInProgressDialog="False"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\CheckIfNumberOfProductsChangeAfterBuy.cs"
+				codeline="87"
+				loglvl="Warn"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.264"
+			timeRelativeToTestModuleStartTime="00:10.265"
+			timeWallClock="19:32:11"
+			time="00:10.264"
+			level="Info"
+			category="Set Value">
+			<message>
+				Setting attribute Text to '21wqsaxz' on item 'ComHackatonEpamTahackaton.LoginForm.Password'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='LoginActivity']//container[@rid='login_form']/container[@rid='email_login_form']//text[@rid='password']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.LoginForm.Password"
+				id="a6072ce7899e450085f23d78429969ce"
+				timeout="90000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\CheckIfNumberOfProductsChangeAfterBuy.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.379"
+			timeRelativeToTestModuleStartTime="00:13.379"
+			timeWallClock="19:32:14"
+			time="00:13.379"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComHackatonEpamTahackaton.LoginForm.EmailSignInButton' at 586;39
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='LoginActivity']//container[@rid='login_form']/?/?/button[@resourceid='R.string.action_sign_in']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.LoginForm.EmailSignInButton"
+				id="0f08e39016394100af32adf3c0a97998"
+				timeout="90000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\CheckIfNumberOfProductsChangeAfterBuy.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.548"
+			timeRelativeToTestModuleStartTime="00:17.549"
+			timeWallClock="19:32:18"
+			time="00:17.548"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComHackatonEpamTahackaton.BskImgSecond' at 131;108
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='BasketActivity']/androidelement[@rid='content']//picture[@resourceid='R.drawable.basket_activity_second_product']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.BskImgSecond"
+				id="10a46dfdf5b14976b298315c855b02e8"
+				timeout="60000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\CheckIfNumberOfProductsChangeAfterBuy.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:45.205"
+			timeRelativeToTestModuleStartTime="00:45.205"
+			timeWallClock="19:32:46"
+			time="00:45.205"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComHackatonEpamTahackaton.PayNow' at 443;65
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='CartActivity']/androidelement[@rid='content']//button[@resourceid='R.string.payNow']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.PayNow"
+				id="5133b6e2163741feb47b1ff082581a3b"
+				timeout="60000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\CheckIfNumberOfProductsChangeAfterBuy.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:55.266"
+			timeRelativeToTestModuleStartTime="00:55.266"
+			timeWallClock="19:32:56"
+			time="00:55.266"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating Exists on item 'ComHackatonEpamTahackaton.Linear'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='CartActivity']/androidelement[@rid='content']//container[@containertype='Linear']/container[2]"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.Linear"
+				id="2f38f71df1cc4a22ba20e64786a36590"
+				timeout="60000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\CheckIfNumberOfProductsChangeAfterBuy.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:01.343"
+			timeRelativeToTestModuleStartTime="01:01.344"
+			timeWallClock="19:33:02"
+			time="01:01.343"
+			level="Success"
+			category="Validation">
+			<message>
+				Element for item 'Linear' does exist.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='CartActivity']/androidelement[@rid='content']//container[@containertype='Linear']/container[2]"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.Linear"
+				id="2f38f71df1cc4a22ba20e64786a36590"
+				timeout="60000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\CheckIfNumberOfProductsChangeAfterBuy.cs"
+				codeline="107"
+				loglvl="Success"
+				itemindex="6">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,21 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Hackaton.rxtst" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="BuyProduct.rxrec" />
+    <Element value="ContactUs.rxrec" />
+    <Element value="MoreThan10Validation.rxrec" />
+    <Element value="Hackaton.rxtst" />
+    <Element value="ApkTestLogIn.rxrec" />
+    <Element value="ImageValidation.rxrec" />
+    <Element value="LessThan1Validation.rxrec" />
+  </Array>
+  <Properties name="projectSavedData">
+    <Properties name="customTool">
+      <runOnBuild value="False" />
+    </Properties>
+    <Array name="recentusercodeselections" />
+  </Properties>
+</Properties>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="7.2">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="Hackaton"
+      id="beca34e9-39ff-4e7f-9fba-15600a12389d"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="Hackaton"
+      id="beca34e9-39ff-4e7f-9fba-15600a12389d"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

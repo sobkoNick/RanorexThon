@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="7533b564-7652-438d-9375-95767b7d8cbe"
+mode="Global"
+rxversion="7.2">
+	<name>
+		YouCase
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="YouCase"
+	namespace="Hackaton">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+	</recorditems>
+	<repository
+	id="6d179ac9-7928-43b1-940f-c5b84368540d"
+	name="HackatonRepository"
+	relativepath="HackatonRepository.rxrep"
+	rxversion="7.2">
+		<codegen
+		classname="HackatonRepository"
+		namespace="Hackaton">
+		</codegen>
+		<rootfolder
+		id="d62d42c1-62cf-425e-8c2b-a70bf130eabe"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		YouCase.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

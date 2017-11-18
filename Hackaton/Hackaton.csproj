@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectGuid>{53FB184E-3E5D-45AD-8B84-555074F92353}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Hackaton</RootNamespace>
+    <AssemblyName>Hackaton</AssemblyName>
+    <RanorexVersion>7.2</RanorexVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <RanorexTargetsPath>$(MSBuildExtensionsPath)\Ranorex$(RanorexVersion)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>a12d0a92-cfb5-4282-87df-5b85c814409b</projectdefaultrepository>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ranorex.Core" />
+    <Reference Include="Ranorex.Plugin.Cef" />
+    <Reference Include="Ranorex.Plugin.ChromeWeb" />
+    <Reference Include="Ranorex.Plugin.FirefoxWeb" />
+    <Reference Include="Ranorex.Plugin.Flex" />
+    <Reference Include="Ranorex.Plugin.Java" />
+    <Reference Include="Ranorex.Plugin.Mobile" />
+    <Reference Include="Ranorex.Plugin.Msaa" />
+    <Reference Include="Ranorex.Plugin.Office" />
+    <Reference Include="Ranorex.Plugin.Qt" />
+    <Reference Include="Ranorex.Plugin.RawText" />
+    <Reference Include="Ranorex.Plugin.Sap" />
+    <Reference Include="Ranorex.Plugin.Uia" />
+    <Reference Include="Ranorex.Plugin.Web" />
+    <Reference Include="Ranorex.Plugin.WebDriver" />
+    <Reference Include="Ranorex.Plugin.Win32" />
+    <Reference Include="Ranorex.Plugin.WinForms" />
+    <Reference Include="Ranorex.Plugin.Wpf" />
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ApkTestLogIn.cs">
+      <BoundTo>eda0ca51-1944-4718-9743-cd393008cc1f</BoundTo>
+      <DependentUpon>ApkTestLogIn.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0f3ac3c4-06f6-438e-a49b-263a07f5f492</id>
+    </Compile>
+    <Compile Include="ApkTestLogIn.UserCode.cs">
+      <BoundTo>eda0ca51-1944-4718-9743-cd393008cc1f</BoundTo>
+      <DependentUpon>ApkTestLogIn.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>6d15d91c-cecd-44dc-9abb-72bb34063588</id>
+    </Compile>
+    <Compile Include="AssemblyInfo.cs">
+      <id>26fc0cba-4c01-4678-8b16-b5d62d342f42</id>
+    </Compile>
+    <Compile Include="BuyProduct.cs">
+      <BoundTo>32d046a0-6c13-4431-8276-8b2aa3b5b1de</BoundTo>
+      <DependentUpon>BuyProduct.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>54355a6e-3e64-4e41-b5e9-3818fa2e6f63</id>
+    </Compile>
+    <Compile Include="BuyProduct.UserCode.cs">
+      <BoundTo>32d046a0-6c13-4431-8276-8b2aa3b5b1de</BoundTo>
+      <DependentUpon>BuyProduct.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b6802c2c-002a-4684-8fa9-acce43b52bbb</id>
+    </Compile>
+    <Compile Include="CheckIfNumberOfProductsChangeAfterBuy.cs">
+      <BoundTo>98a53d30-dea7-4b95-b2e6-390113fc193a</BoundTo>
+      <DependentUpon>CheckIfNumberOfProductsChangeAfterBuy.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>db9ed1c3-4ee7-4f8d-8389-f7dd4d12c763</id>
+    </Compile>
+    <Compile Include="CheckIfNumberOfProductsChangeAfterBuy.UserCode.cs">
+      <BoundTo>98a53d30-dea7-4b95-b2e6-390113fc193a</BoundTo>
+      <DependentUpon>CheckIfNumberOfProductsChangeAfterBuy.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>89c8d704-d615-478e-bcab-82ad4b22ea04</id>
+    </Compile>
+    <Compile Include="ContactUs.cs">
+      <BoundTo>279a964a-b86c-4b74-a97f-ba0b35633189</BoundTo>
+      <DependentUpon>ContactUs.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>33e620e9-1d5a-4963-86dd-d896db5f4c19</id>
+    </Compile>
+    <Compile Include="ContactUs.UserCode.cs">
+      <BoundTo>279a964a-b86c-4b74-a97f-ba0b35633189</BoundTo>
+      <DependentUpon>ContactUs.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>e922cd3d-796d-4a98-bf69-3dea865c2e99</id>
+    </Compile>
+    <Compile Include="HackatonRepository.cs">
+      <BoundTo>a12d0a92-cfb5-4282-87df-5b85c814409b</BoundTo>
+      <DependentUpon>HackatonRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>8a52caad-e7aa-4189-8f58-dda23ea30adb</id>
+    </Compile>
+    <Compile Include="ImageValidation.cs">
+      <BoundTo>e32dcc35-2008-4005-8a9a-289637d9e3d3</BoundTo>
+      <DependentUpon>ImageValidation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>ac10aa08-8262-480b-9177-b34979a27f5f</id>
+    </Compile>
+    <Compile Include="ImageValidation.UserCode.cs">
+      <BoundTo>e32dcc35-2008-4005-8a9a-289637d9e3d3</BoundTo>
+      <DependentUpon>ImageValidation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c4014769-1aa6-4359-a24a-7c2c62241a72</id>
+    </Compile>
+    <Compile Include="Invalid_UserPassword.cs">
+      <BoundTo>bf1d7e00-299a-4151-8203-e089c9b339f1</BoundTo>
+      <DependentUpon>Invalid_UserPassword.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>d4d157c6-d917-4873-9800-8742ca0e9d65</id>
+    </Compile>
+    <Compile Include="Invalid_UserPassword.UserCode.cs">
+      <BoundTo>bf1d7e00-299a-4151-8203-e089c9b339f1</BoundTo>
+      <DependentUpon>Invalid_UserPassword.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ef90a9d9-84a2-43e2-a424-19786a03ceb9</id>
+    </Compile>
+    <Compile Include="LessThan1Validation.cs">
+      <BoundTo>7990e5c2-4769-4e5d-9579-2b474920a2bf</BoundTo>
+      <DependentUpon>LessThan1Validation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4525f826-bb3f-4dea-8372-d5cbd35929ce</id>
+    </Compile>
+    <Compile Include="LessThan1Validation.UserCode.cs">
+      <BoundTo>7990e5c2-4769-4e5d-9579-2b474920a2bf</BoundTo>
+      <DependentUpon>LessThan1Validation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b2dd781b-2d00-4682-b1f2-3366f99f300d</id>
+    </Compile>
+    <Compile Include="Login_InvalidUser.cs">
+      <BoundTo>006fa05f-5d32-4c12-930d-890555705ba8</BoundTo>
+      <DependentUpon>Login_InvalidUser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>1de48cac-7058-4dc5-80c8-f2c3106d8244</id>
+    </Compile>
+    <Compile Include="Login_InvalidUser.UserCode.cs">
+      <BoundTo>006fa05f-5d32-4c12-930d-890555705ba8</BoundTo>
+      <DependentUpon>Login_InvalidUser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>eb0de791-3cbe-4fa3-977c-c5dea2ccf9a6</id>
+    </Compile>
+    <Compile Include="MoreThan10Validation.cs">
+      <BoundTo>fc3c6e14-3260-4f4d-8fc9-5e71ab97a6b4</BoundTo>
+      <DependentUpon>MoreThan10Validation.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>cb74a172-db69-42dc-bb5f-3cd2361a5c93</id>
+    </Compile>
+    <Compile Include="MoreThan10Validation.UserCode.cs">
+      <BoundTo>fc3c6e14-3260-4f4d-8fc9-5e71ab97a6b4</BoundTo>
+      <DependentUpon>MoreThan10Validation.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>7c9aff40-6c78-4ded-b5b3-978a8381e894</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>2e2e44e1-d862-4d1e-8e26-b0bcc76b4d24</id>
+    </Compile>
+    <Compile Include="Record6ProductsTwoTimes.cs">
+      <BoundTo>d4035edd-6a56-4206-9310-a42068f45a32</BoundTo>
+      <DependentUpon>Record6ProductsTwoTimes.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4aec193c-14b5-4194-ae06-fec64435a338</id>
+    </Compile>
+    <Compile Include="Record6ProductsTwoTimes.UserCode.cs">
+      <BoundTo>d4035edd-6a56-4206-9310-a42068f45a32</BoundTo>
+      <DependentUpon>Record6ProductsTwoTimes.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>ea863558-cd0f-4ebc-9a19-895016238691</id>
+    </Compile>
+    <Compile Include="Video.cs">
+      <BoundTo>cd605d1c-cf1b-426d-aa78-cdaa4f401898</BoundTo>
+      <DependentUpon>Video.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>31e19542-44f6-4142-b81c-ad0f47b506b9</id>
+    </Compile>
+    <Compile Include="Video.UserCode.cs">
+      <BoundTo>cd605d1c-cf1b-426d-aa78-cdaa4f401898</BoundTo>
+      <DependentUpon>Video.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>c5e4186a-d121-49c8-a1d2-3b3068bee85f</id>
+    </Compile>
+    <Compile Include="YouCase.cs">
+      <BoundTo>6f22a462-8396-4680-b619-bdab4625a6c6</BoundTo>
+      <DependentUpon>YouCase.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>f80d613d-05f6-4e91-9f7c-308f52154906</id>
+    </Compile>
+    <Compile Include="YouCase.UserCode.cs">
+      <BoundTo>6f22a462-8396-4680-b619-bdab4625a6c6</BoundTo>
+      <DependentUpon>YouCase.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>2c076d8f-e1cd-4ca2-9885-5d42f70310d7</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ApkTestLogIn.rxrec">
+      <BoundTo>a12d0a92-cfb5-4282-87df-5b85c814409b</BoundTo>
+      <id>eda0ca51-1944-4718-9743-cd393008cc1f</id>
+      <recordtableid>074d4f51-f616-48d9-8f77-2f66b94fa92a</recordtableid>
+    </None>
+    <None Include="app.config">
+      <id>83992222-49fd-4629-8ac8-0725d61c69a4</id>
+    </None>
+    <None Include="BuyProduct.rxrec">
+      <id>32d046a0-6c13-4431-8276-8b2aa3b5b1de</id>
+      <recordtableid>82fbf51f-d5db-4bfa-a6af-2dd7cdb2669e</recordtableid>
+      <BoundTo>a12d0a92-cfb5-4282-87df-5b85c814409b</BoundTo>
+    </None>
+    <None Include="CheckIfNumberOfProductsChangeAfterBuy.rxrec">
+      <BoundTo>a12d0a92-cfb5-4282-87df-5b85c814409b</BoundTo>
+      <id>98a53d30-dea7-4b95-b2e6-390113fc193a</id>
+      <recordtableid>8acdfc94-7d4a-4cc7-8cd8-ce7d65eebb39</recordtableid>
+    </None>
+    <None Include="ContactUs.rxrec">
+      <BoundTo>a12d0a92-cfb5-4282-87df-5b85c814409b</BoundTo>
+      <id>279a964a-b86c-4b74-a97f-ba0b35633189</id>
+      <recordtableid>226c516d-0393-4ac6-b9b1-2f7b5d2cc1f0</recordtableid>
+    </None>
+    <None Include="HackatonRepository.rximg">
+      <BoundTo>a12d0a92-cfb5-4282-87df-5b85c814409b</BoundTo>
+      <DependentUpon>HackatonRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>b24a5260-d625-446f-84a0-3c4e1b20ea9f</id>
+    </None>
+    <None Include="HackatonRepository.rxrep">
+      <id>a12d0a92-cfb5-4282-87df-5b85c814409b</id>
+      <repoid>6d179ac9-7928-43b1-940f-c5b84368540d</repoid>
+      <reporootid>d62d42c1-62cf-425e-8c2b-a70bf130eabe</reporootid>
+    </None>
+    <None Include="ImageValidation.rxrec">
+      <BoundTo>a12d0a92-cfb5-4282-87df-5b85c814409b</BoundTo>
+      <id>e32dcc35-2008-4005-8a9a-289637d9e3d3</id>
+      <recordtableid>6a0f9d67-b2c7-4a03-9d48-a0389130d142</recordtableid>
+    </None>
+    <None Include="Invalid_UserPassword.rxrec">
+      <BoundTo>a12d0a92-cfb5-4282-87df-5b85c814409b</BoundTo>
+      <id>bf1d7e00-299a-4151-8203-e089c9b339f1</id>
+      <recordtableid>5fe1f904-602d-4f66-a289-389b2143f2aa</recordtableid>
+    </None>
+    <None Include="LessThan1Validation.rxrec">
+      <BoundTo>a12d0a92-cfb5-4282-87df-5b85c814409b</BoundTo>
+      <id>7990e5c2-4769-4e5d-9579-2b474920a2bf</id>
+      <recordtableid>2118b2a8-2062-4437-a38d-b3fcf2bd1bdb</recordtableid>
+    </None>
+    <None Include="Login_InvalidUser.rxrec">
+      <BoundTo>a12d0a92-cfb5-4282-87df-5b85c814409b</BoundTo>
+      <id>006fa05f-5d32-4c12-930d-890555705ba8</id>
+      <recordtableid>0c339318-f5d4-4dc6-b7af-1be9354ab7d3</recordtableid>
+    </None>
+    <None Include="MoreThan10Validation.rxrec">
+      <BoundTo>a12d0a92-cfb5-4282-87df-5b85c814409b</BoundTo>
+      <id>fc3c6e14-3260-4f4d-8fc9-5e71ab97a6b4</id>
+      <recordtableid>5cbb6689-b37b-4f6c-ae97-c33de9ddfd0e</recordtableid>
+    </None>
+    <None Include="Record6ProductsTwoTimes.rxrec">
+      <BoundTo>a12d0a92-cfb5-4282-87df-5b85c814409b</BoundTo>
+      <id>d4035edd-6a56-4206-9310-a42068f45a32</id>
+      <recordtableid>924023c8-cd8b-4654-9559-f62f42e00be7</recordtableid>
+    </None>
+    <None Include="Video.rxrec">
+      <BoundTo>a12d0a92-cfb5-4282-87df-5b85c814409b</BoundTo>
+      <id>cd605d1c-cf1b-426d-aa78-cdaa4f401898</id>
+      <recordtableid>145f4e0a-609e-4a4f-90f0-8303efb20cda</recordtableid>
+    </None>
+    <None Include="YouCase.rxrec">
+      <BoundTo>a12d0a92-cfb5-4282-87df-5b85c814409b</BoundTo>
+      <id>6f22a462-8396-4680-b619-bdab4625a6c6</id>
+      <recordtableid>7533b564-7652-438d-9375-95767b7d8cbe</recordtableid>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Hackaton.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>a836d7e6-3c4e-4ad6-85a0-ac4d923fd0bf</id>
+    </Content>
+    <Content Include="Hackaton.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>99430e02-0576-4ad0-bbb6-9f388a87134e</id>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+</Project>

@@ -1,0 +1,400 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="bf28bda6fd35c2"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Mykola"
+		rxversion="7.2.1.0"
+		host="DESKTOP-6SSJG4S"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="uk-UA"
+		dtnlanguage="uk-UA"
+		screenresolution="1366x768"
+		timestamp="18.11.2017 19:33:42"
+		timestampiso="2017-11-18T17:33:42"
+		endtime="18.11.2017 19:35:46"
+		timeoutfactor="1"
+		module="Record6ProductsTwoTimes">
+		<detail>
+			Record6ProductsTwoTimes
+		</detail>
+		<errormessage>
+			Attribute 'Text' of element for item 'HackatonRepository.ComHackatonEpamTahackaton.ErrorCount' does not match the specified value (actual='', expected='4 products remaining!').
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.925"
+			timeRelativeToTestModuleStartTime="00:00.925"
+			timeWallClock="19:33:42"
+			time="00:00.925"
+			level="Info"
+			category="Application">
+			<message>
+				Run mobile app 'com.hackaton.epam.tahackaton' on device 'emulator-5554'.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\Record6ProductsTwoTimes.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.316"
+			timeRelativeToTestModuleStartTime="00:08.316"
+			timeWallClock="19:33:50"
+			time="00:08.316"
+			level="Info"
+			category="Set Value">
+			<message>
+				Setting attribute Text to 'hackaton.epam.ta@gmail.com' on item 'ComHackatonEpamTahackaton.LoginForm.Email'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='LoginActivity']//container[@rid='login_form']/container[@rid='email_login_form']//text[@rid='email']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.LoginForm.Email"
+				id="4740653efc114d29807337f9c1c963f2"
+				timeout="90000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\Record6ProductsTwoTimes.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.694"
+			timeRelativeToTestModuleStartTime="00:11.694"
+			timeWallClock="19:33:53"
+			time="00:11.694"
+			level="Warn"
+			category="Qt">
+			<message>
+				Failed to instrument Qt process. Please make sure you have enough privileges to access the process and a supported version of Qt.<br/>Process: 'qemu-system-i386' (pid 2472)<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="QtWindow"
+				showInProgressDialog="False"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\Record6ProductsTwoTimes.cs"
+				codeline="87"
+				loglvl="Warn"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.909"
+			timeRelativeToTestModuleStartTime="00:11.909"
+			timeWallClock="19:33:53"
+			time="00:11.909"
+			level="Info"
+			category="Set Value">
+			<message>
+				Setting attribute Text to '21wqsaxz' on item 'ComHackatonEpamTahackaton.LoginForm.Password'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='LoginActivity']//container[@rid='login_form']/container[@rid='email_login_form']//text[@rid='password']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.LoginForm.Password"
+				id="a6072ce7899e450085f23d78429969ce"
+				timeout="90000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\Record6ProductsTwoTimes.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:14.986"
+			timeRelativeToTestModuleStartTime="00:14.986"
+			timeWallClock="19:33:57"
+			time="00:14.986"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComHackatonEpamTahackaton.LoginForm.EmailSignInButton' at 586;39
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='LoginActivity']//container[@rid='login_form']/?/?/button[@resourceid='R.string.action_sign_in']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.LoginForm.EmailSignInButton"
+				id="0f08e39016394100af32adf3c0a97998"
+				timeout="90000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\Record6ProductsTwoTimes.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.200"
+			timeRelativeToTestModuleStartTime="00:19.200"
+			timeWallClock="19:34:01"
+			time="00:19.200"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComHackatonEpamTahackaton.BskImgSecond' at 131;108
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='BasketActivity']/androidelement[@rid='content']//picture[@resourceid='R.drawable.basket_activity_second_product']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.BskImgSecond"
+				id="10a46dfdf5b14976b298315c855b02e8"
+				timeout="60000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\Record6ProductsTwoTimes.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:47.179"
+			timeRelativeToTestModuleStartTime="00:47.179"
+			timeWallClock="19:34:29"
+			time="00:47.179"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComHackatonEpamTahackaton.CartPlus' at 42;43
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='CartActivity']/androidelement[@rid='content']//container[@containertype='Linear']/container[3]/picture[@resourceid='R.drawable.cart_activity_plus']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.CartPlus"
+				id="5237e4e9033c4b99a7c8744d5167df0c"
+				timeout="60000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\Record6ProductsTwoTimes.cs"
+				codeline="102"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:58.512"
+			timeRelativeToTestModuleStartTime="00:58.512"
+			timeWallClock="19:34:40"
+			time="00:58.512"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComHackatonEpamTahackaton.CartPlus' at 42;43
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='CartActivity']/androidelement[@rid='content']//container[@containertype='Linear']/container[3]/picture[@resourceid='R.drawable.cart_activity_plus']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.CartPlus"
+				id="5237e4e9033c4b99a7c8744d5167df0c"
+				timeout="60000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\Record6ProductsTwoTimes.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:08.377"
+			timeRelativeToTestModuleStartTime="01:08.377"
+			timeWallClock="19:34:50"
+			time="01:08.377"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComHackatonEpamTahackaton.CartPlus' at 42;43
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='CartActivity']/androidelement[@rid='content']//container[@containertype='Linear']/container[3]/picture[@resourceid='R.drawable.cart_activity_plus']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.CartPlus"
+				id="5237e4e9033c4b99a7c8744d5167df0c"
+				timeout="60000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\Record6ProductsTwoTimes.cs"
+				codeline="110"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:17.869"
+			timeRelativeToTestModuleStartTime="01:17.869"
+			timeWallClock="19:34:59"
+			time="01:17.869"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComHackatonEpamTahackaton.CartPlus' at 42;43
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='CartActivity']/androidelement[@rid='content']//container[@containertype='Linear']/container[3]/picture[@resourceid='R.drawable.cart_activity_plus']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.CartPlus"
+				id="5237e4e9033c4b99a7c8744d5167df0c"
+				timeout="60000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\Record6ProductsTwoTimes.cs"
+				codeline="114"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:27.773"
+			timeRelativeToTestModuleStartTime="01:27.773"
+			timeWallClock="19:35:09"
+			time="01:27.773"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComHackatonEpamTahackaton.CartPlus' at 42;43
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='CartActivity']/androidelement[@rid='content']//container[@containertype='Linear']/container[3]/picture[@resourceid='R.drawable.cart_activity_plus']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.CartPlus"
+				id="5237e4e9033c4b99a7c8744d5167df0c"
+				timeout="60000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\Record6ProductsTwoTimes.cs"
+				codeline="118"
+				itemindex="9"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:37.748"
+			timeRelativeToTestModuleStartTime="01:37.748"
+			timeWallClock="19:35:19"
+			time="01:37.748"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComHackatonEpamTahackaton.CartPlus' at 37;38
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='CartActivity']/androidelement[@rid='content']//container[@containertype='Linear']/container[3]/picture[@resourceid='R.drawable.cart_activity_plus']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.CartPlus"
+				id="5237e4e9033c4b99a7c8744d5167df0c"
+				timeout="60000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\Record6ProductsTwoTimes.cs"
+				codeline="122"
+				itemindex="10"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:47.574"
+			timeRelativeToTestModuleStartTime="01:47.574"
+			timeWallClock="19:35:29"
+			time="01:47.574"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComHackatonEpamTahackaton.CartMinus' at 49;43
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='CartActivity']/androidelement[@rid='content']//container[@containertype='Linear']/container[3]/picture[@resourceid='R.drawable.cart_activity_minus']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.CartMinus"
+				id="54551b214b1c4c53b32d52245ee1ab9c"
+				timeout="60000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\Record6ProductsTwoTimes.cs"
+				codeline="126"
+				itemindex="11"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:57.194"
+			timeRelativeToTestModuleStartTime="01:57.194"
+			timeWallClock="19:35:39"
+			time="01:57.194"
+			level="Info"
+			category="Validation"
+			errimg=".\Record6P_b776dff0_f54c485b_trace.jpg"
+			errthumb=".\Record6P_b776dff0_f54c485b_trace_thumb.jpg">
+			<message>
+				Validating AttributeEqual (Text='4 products remaining!') on item 'ComHackatonEpamTahackaton.ErrorCount'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='CartActivity']/androidelement[@rid='content']//container[@containertype='Linear']/container[2]/text[@rid='error_count']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.ErrorCount"
+				id="707214266d174584a9e2f8ca11098180"
+				timeout="60000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\Record6ProductsTwoTimes.cs"
+				codeline="130"
+				itemindex="12"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:02.468"
+			timeRelativeToTestModuleStartTime="02:02.468"
+			timeWallClock="19:35:44"
+			time="02:02.468"
+			level="Failure"
+			category="Validation"
+			errimg=".\Record6P_b776dff0_1dff998e_trace.jpg"
+			errthumb=".\Record6P_b776dff0_1dff998e_trace_thumb.jpg">
+			<message>
+				Attribute 'Text' of element for item 'HackatonRepository.ComHackatonEpamTahackaton.ErrorCount' does not match the specified value (actual='', expected='4 products remaining!').
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='CartActivity']/androidelement[@rid='content']//container[@containertype='Linear']/container[2]/text[@rid='error_count']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.ErrorCount"
+				id="707214266d174584a9e2f8ca11098180"
+				timeout="60000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\Record6ProductsTwoTimes.cs"
+				codeline="131"
+				loglvl="Failure"
+				itemindex="12">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:02.480"
+			timeRelativeToTestModuleStartTime="02:02.480"
+			timeWallClock="19:35:44"
+			time="02:02.480"
+			level="Error"
+			category="Module"
+			errimg=".\Record6P_b776dff0_1dff998e_trace.jpg"
+			errthumb=".\Record6P_b776dff0_1dff998e_trace_thumb.jpg">
+			<message>
+				Module execution was aborted because a validation step has failed. Attribute 'Text' of element for item 'HackatonRepository.ComHackatonEpamTahackaton.ErrorCount' does not match the specified value (actual='', expected='4 products remaining!').
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Validate.IsTrueInternal(Boolean condition, String message, Options options, RepoItemInfo itemInfo)
+   at Ranorex.Validate.AttributeInternal(Element element, String name, Object value, String message, Options options, RepoItemInfo itemInfo, Boolean isEq)
+   at Ranorex.Validate.RepoItemAttributeInternal(RepoItemInfo itemInfo, String name, Object value, String message, Options options, Boolean isEq)
+   at Ranorex.Validate.Attribute(RepoItemInfo itemInfo, String name, Object value)
+   at Hackaton.Record6ProductsTwoTimes.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\Record6ProductsTwoTimes.cs:line 131
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\Record6ProductsTwoTimes.cs"
+				codeline="131"
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='CartActivity']/androidelement[@rid='content']//container[@containertype='Linear']/container[2]/text[@rid='error_count']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.ErrorCount"
+				id="707214266d174584a9e2f8ca11098180"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="12">
+			</metainfo>
+		</item>
+	</activity>
+</report>

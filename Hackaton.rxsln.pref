@@ -1,0 +1,12 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{53FB184E-3E5D-45AD-8B84-555074F92353}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution Hackaton[Hackaton[]]]&#xD;&#xA;Solution Hackaton\Hackaton\Hackaton.rxtst&#xD;&#xA;Solution Hackaton" />
+  <StartupProject value="{53FB184E-3E5D-45AD-8B84-555074F92353}" />
+</Properties>

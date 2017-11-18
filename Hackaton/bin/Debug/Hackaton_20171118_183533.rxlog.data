@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="InProgress">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="110b3fe55473d5a8"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Mykola"
+		rxversion="7.2.1.0"
+		host="DESKTOP-6SSJG4S"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="uk-UA"
+		dtnlanguage="uk-UA"
+		screenresolution="1366x768"
+		timestamp="18.11.2017 18:35:33"
+		timestampiso="2017-11-18T16:35:33"
+		endtime="18.11.2017 18:35:33"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+	</activity>
+</report>

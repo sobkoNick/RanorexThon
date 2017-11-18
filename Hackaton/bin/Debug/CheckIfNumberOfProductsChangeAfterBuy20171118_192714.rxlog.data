@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="5036850c65c1a12"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Mykola"
+		rxversion="7.2.1.0"
+		host="DESKTOP-6SSJG4S"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="uk-UA"
+		dtnlanguage="uk-UA"
+		screenresolution="1366x768"
+		timestamp="18.11.2017 19:27:19"
+		timestampiso="2017-11-18T17:27:19"
+		endtime="18.11.2017 19:27:32"
+		timeoutfactor="1"
+		module="CheckIfNumberOfProductsChangeAfterBuy">
+		<detail>
+			CheckIfNumberOfProductsChangeAfterBuy
+		</detail>
+		<errormessage>
+			Failed to start app 'com.hackaton.epam.tahackaton@gmail.com' because the app started event was not received within the specified timeout of '00:00:10'.
+		</errormessage>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.980"
+			timeRelativeToTestModuleStartTime="00:00.980"
+			timeWallClock="19:27:20"
+			time="00:00.980"
+			level="Info"
+			category="Application"
+			errimg=".\CheckIfN_34744a00_98291fe5_trace.jpg"
+			errthumb=".\CheckIfN_34744a00_98291fe5_trace_thumb.jpg">
+			<message>
+				Run mobile app 'com.hackaton.epam.tahackaton@gmail.com' on device 'emulator-5554'.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\CheckIfNumberOfProductsChangeAfterBuy.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.254"
+			timeRelativeToTestModuleStartTime="00:12.254"
+			timeWallClock="19:27:32"
+			time="00:12.254"
+			level="Error"
+			category="Module"
+			errimg=".\CheckIfN_34744a00_2e28226f_trace.jpg"
+			errthumb=".\CheckIfN_34744a00_2e28226f_trace_thumb.jpg">
+			<message>
+				Failed to start app 'com.hackaton.epam.tahackaton@gmail.com' because the app started event was not received within the specified timeout of '00:00:10'.<br/>The operation has timed out.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Plugin.Mobile.Device.MobileDevice.WaitForAppStartedEvent(AppInformation appInfo, TimeSpan timeout, TimeSpan waitTimeCorrection)
+   at Ranorex.Plugin.Mobile.Device.MobileDevice.StartApplication(AppInformation app, Boolean resetInitialState)
+   at Ranorex.Host.RunMobileApp(String deviceDisplayName, String appName, Boolean resetInitialState)
+   at Hackaton.CheckIfNumberOfProductsChangeAfterBuy.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\CheckIfNumberOfProductsChangeAfterBuy.cs:line 83
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\CheckIfNumberOfProductsChangeAfterBuy.cs"
+				codeline="83"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

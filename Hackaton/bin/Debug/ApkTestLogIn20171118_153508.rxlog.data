@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="18d1e0621774ede"
+		totalerrorcount="0"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Mykola"
+		rxversion="7.2.1.0"
+		host="DESKTOP-6SSJG4S"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="uk-UA"
+		dtnlanguage="uk-UA"
+		screenresolution="1366x768"
+		timestamp="18.11.2017 15:35:16"
+		timestampiso="2017-11-18T13:35:16"
+		endtime="18.11.2017 15:35:43"
+		timeoutfactor="1"
+		module="ApkTestLogIn">
+		<detail>
+			ApkTestLogIn
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:00.929"
+			timeRelativeToTestModuleStartTime="00:00.929"
+			timeWallClock="15:35:17"
+			time="00:00.929"
+			level="Info"
+			category="Application">
+			<message>
+				Run mobile app 'com.hackaton.epam.tahackaton' on device 'emulator-5554'.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\ApkTestLogIn.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.612"
+			timeRelativeToTestModuleStartTime="00:06.612"
+			timeWallClock="15:35:22"
+			time="00:06.612"
+			level="Info"
+			category="Set Value">
+			<message>
+				Setting attribute Text to 'hackaton.epam.ta@gmail.com' on item 'ComHackatonEpamTahackaton.LoginForm.Email'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='LoginActivity']//container[@rid='login_form']/container[@rid='email_login_form']//text[@rid='email']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.LoginForm.Email"
+				id="4740653efc114d29807337f9c1c963f2"
+				timeout="90000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\ApkTestLogIn.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.760"
+			timeRelativeToTestModuleStartTime="00:09.760"
+			timeWallClock="15:35:26"
+			time="00:09.760"
+			level="Warn"
+			category="Qt">
+			<message>
+				Failed to instrument Qt process. Please make sure you have enough privileges to access the process and a supported version of Qt.<br/>Process: 'qemu-system-i386' (pid 2228)<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="QtWindow"
+				showInProgressDialog="False"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\ApkTestLogIn.cs"
+				codeline="87"
+				loglvl="Warn"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.979"
+			timeRelativeToTestModuleStartTime="00:09.979"
+			timeWallClock="15:35:26"
+			time="00:09.979"
+			level="Info"
+			category="Set Value">
+			<message>
+				Setting attribute Text to '21wqsaxz' on item 'ComHackatonEpamTahackaton.LoginForm.Password'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='LoginActivity']//container[@rid='login_form']/container[@rid='email_login_form']//text[@rid='password']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.LoginForm.Password"
+				id="a6072ce7899e450085f23d78429969ce"
+				timeout="90000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\ApkTestLogIn.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:23.119"
+			timeRelativeToTestModuleStartTime="00:23.119"
+			timeWallClock="15:35:39"
+			time="00:23.119"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComHackatonEpamTahackaton.LoginForm.EmailSignInButton' at 586;39
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='LoginActivity']//container[@rid='login_form']/?/?/button[@resourceid='R.string.action_sign_in']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.LoginForm.EmailSignInButton"
+				id="0f08e39016394100af32adf3c0a97998"
+				timeout="90000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\ApkTestLogIn.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

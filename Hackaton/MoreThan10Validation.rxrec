@@ -1,0 +1,1006 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="5cbb6689-b37b-4f6c-ae97-c33de9ddfd0e"
+mode="Mobile"
+rxversion="7.2">
+	<name>
+		MoreThan10Validation
+	</name>
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="MoreThan10Validation"
+	namespace="Hackaton">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<touchrecorditem
+		duration="500ms"
+		elementlocation="42;49"
+		enabled="True"
+		fingerid="0"
+		imagerect="201,0,84,112"
+		isremote="True"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		optional="False"
+		searchpropertyid="6d7c5957-3950-46f3-a4b1-b246a0083760"
+		sx="42"
+		sy="49"
+		touchduration="100ms"
+		touchtype="Touch"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5237e4e9-033c-4b99-a7c8-744d5167df0c"
+			sourcename="RemoteRecorder">
+				<element
+				capabilities="androidelement, mobileuielement"
+				dontcache="True"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="2"
+				prefcap="picture"
+				rect="292,1866,84,112"
+				role="picture"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="resourceid"
+					type="System.String">
+						R.drawable.cart_activity_plus
+					</attribute>
+					<attribute
+					name="rid"
+					type="System.String">
+						cartPlus
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.support.v7.widget.AppCompatImageView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						107068399
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='CartActivity']/androidelement[@rid='content']//container[@containertype='Linear']/container[3]/picture[@resourceid='R.drawable.cart_activity_plus']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="7ea47b33-cf76-4afa-8797-eeed60edf9a5">
+				iVBORw0KGgoAAAANSUhEUgAAAFQAAABwCAYAAACAVlfhAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAIPSURBVHhe7dyvaxxBAMXxk4WImEIhFRWF2ooTFQn3qyX5AwIVMRERERFn6ncnTaG0
+4kRFRUVNRKB/QGVkRUVtIKIigUBMRSF28nZvzW3vurC8kL277wceuZDZsPOYvZswkBYAAAAAAAAA
+AAAAAAAAAFgEsZc+UB7GwdunsX/4fCIbybO4nqzFzY8rxXBUiS/fPVJ5L2Iv7CpJKfuxH7bi4OhJ
+MRxVxiszbGuVjpTTUr6o1INstRbDUSV/tHthOC4wxMmkv5SRxnSL4ahCoWYUakahZhRqRqFmFGpG
+oWYUakahZhRqRqFmFGpGoWYUakahZhRqttSFanKzD9TqppO8jt3wQb/357+FhjPlWNmbem2dNOng
+r+JArWbSz8p35be+LxWaXik/lK/jsZY05+Cv4kCtbrQy03PljyZbLvSvcqFkj/60a+ukOQd/+SMz
+8/1uXtKg92UKNaNQMwo1y7ccnWRHN6Q39vzGDMm3Rpd6rQ+g0uS74Ua51s+yD60p19ZJONHXNyq0
+XUzr/rBtMss2w7qRx/mjr0fGkmzT3ks/KdnqKRearcxvej2cem29tPPt36v3q8W0FosmuLx/et4F
+CjWjUDMKNaNQMwo1o1AzCjWjUDMKNaNQMwo1o1AzCjWjUDMKNaNQMwo1+//BX4MO1OYF/4DArOLg
+b7EP1AAAAAAAAAAAAAAAAAAAWDKt1i1kDeexLW3GPQAAAABJRU5ErkJggg==
+			</helperscreenshot>
+		</touchrecorditem>
+		<touchrecorditem
+		duration="500ms"
+		elementlocation="42;52"
+		enabled="True"
+		fingerid="0"
+		imagerect="201,0,84,112"
+		isremote="True"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		optional="False"
+		searchpropertyid="76b14d98-ccc7-4451-a5a1-87cbdf34ca23"
+		sx="42"
+		sy="52"
+		touchduration="100ms"
+		touchtype="Touch"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5237e4e9-033c-4b99-a7c8-744d5167df0c"
+			sourcename="RemoteRecorder">
+				<element
+				capabilities="androidelement, mobileuielement"
+				dontcache="True"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="2"
+				prefcap="picture"
+				rect="292,1853,84,112"
+				role="picture"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="resourceid"
+					type="System.String">
+						R.drawable.cart_activity_plus
+					</attribute>
+					<attribute
+					name="rid"
+					type="System.String">
+						cartPlus
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.support.v7.widget.AppCompatImageView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						107068399
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='CartActivity']/androidelement[@rid='content']//container[@containertype='Linear']/container[3]/picture[@resourceid='R.drawable.cart_activity_plus']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="9e33b03d-48a1-4dfa-9350-a8f5d42cd22b">
+				iVBORw0KGgoAAAANSUhEUgAAAFQAAABwCAYAAACAVlfhAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAIPSURBVHhe7dyvaxxBAMXxk4WImEIhFRWF2ooTFQn3qyX5AwIVMRERERFn6ncnTaG0
+4kRFRUVNRKB/QGVkRUVtIKIigUBMRSF28nZvzW3vurC8kL277wceuZDZsPOYvZswkBYAAAAAAAAA
+AAAAAAAAAFgEsZc+UB7GwdunsX/4fCIbybO4nqzFzY8rxXBUiS/fPVJ5L2Iv7CpJKfuxH7bi4OhJ
+MRxVxiszbGuVjpTTUr6o1INstRbDUSV/tHthOC4wxMmkv5SRxnSL4ahCoWYUakahZhRqRqFmFGpG
+oWYUakahZhRqRqFmFGpGoWYUakahZhRqttSFanKzD9TqppO8jt3wQb/357+FhjPlWNmbem2dNOng
+r+JArWbSz8p35be+LxWaXik/lK/jsZY05+Cv4kCtbrQy03PljyZbLvSvcqFkj/60a+ukOQd/+SMz
+8/1uXtKg92UKNaNQMwo1y7ccnWRHN6Q39vzGDMm3Rpd6rQ+g0uS74Ua51s+yD60p19ZJONHXNyq0
+XUzr/rBtMss2w7qRx/mjr0fGkmzT3ks/KdnqKRearcxvej2cem29tPPt36v3q8W0FosmuLx/et4F
+CjWjUDMKNaNQMwo1o1AzCjWjUDMKNaNQMwo1o1AzCjWjUDMKNaNQMwo1+//BX4MO1OYF/4DArOLg
+b7EP1AAAAAAAAAAAAAAAAAAAWDKt1i1kDeexLW3GPQAAAABJRU5ErkJggg==
+			</helperscreenshot>
+		</touchrecorditem>
+		<touchrecorditem
+		duration="500ms"
+		elementlocation="42;52"
+		enabled="True"
+		fingerid="0"
+		imagerect="201,0,84,112"
+		isremote="True"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		optional="False"
+		searchpropertyid="dd33b573-b38b-4778-883b-332303954183"
+		sx="42"
+		sy="52"
+		touchduration="100ms"
+		touchtype="Touch"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5237e4e9-033c-4b99-a7c8-744d5167df0c"
+			sourcename="RemoteRecorder">
+				<element
+				capabilities="androidelement, mobileuielement"
+				dontcache="True"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="2"
+				prefcap="picture"
+				rect="292,1853,84,112"
+				role="picture"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="resourceid"
+					type="System.String">
+						R.drawable.cart_activity_plus
+					</attribute>
+					<attribute
+					name="rid"
+					type="System.String">
+						cartPlus
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.support.v7.widget.AppCompatImageView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						107068399
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='CartActivity']/androidelement[@rid='content']//container[@containertype='Linear']/container[3]/picture[@resourceid='R.drawable.cart_activity_plus']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="38447edc-95dd-4654-9c5a-03e96569f951">
+				iVBORw0KGgoAAAANSUhEUgAAAFQAAABwCAYAAACAVlfhAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAIPSURBVHhe7dyvaxxBAMXxk4WImEIhFRWF2ooTFQn3qyX5AwIVMRERERFn6ncnTaG0
+4kRFRUVNRKB/QGVkRUVtIKIigUBMRSF28nZvzW3vurC8kL277wceuZDZsPOYvZswkBYAAAAAAAAA
+AAAAAAAAAFgEsZc+UB7GwdunsX/4fCIbybO4nqzFzY8rxXBUiS/fPVJ5L2Iv7CpJKfuxH7bi4OhJ
+MRxVxiszbGuVjpTTUr6o1INstRbDUSV/tHthOC4wxMmkv5SRxnSL4ahCoWYUakahZhRqRqFmFGpG
+oWYUakahZhRqRqFmFGpGoWYUakahZhRqttSFanKzD9TqppO8jt3wQb/357+FhjPlWNmbem2dNOng
+r+JArWbSz8p35be+LxWaXik/lK/jsZY05+Cv4kCtbrQy03PljyZbLvSvcqFkj/60a+ukOQd/+SMz
+8/1uXtKg92UKNaNQMwo1y7ccnWRHN6Q39vzGDMm3Rpd6rQ+g0uS74Ua51s+yD60p19ZJONHXNyq0
+XUzr/rBtMss2w7qRx/mjr0fGkmzT3ks/KdnqKRearcxvej2cem29tPPt36v3q8W0FosmuLx/et4F
+CjWjUDMKNaNQMwo1o1AzCjWjUDMKNaNQMwo1o1AzCjWjUDMKNaNQMwo1+//BX4MO1OYF/4DArOLg
+b7EP1AAAAAAAAAAAAAAAAAAAWDKt1i1kDeexLW3GPQAAAABJRU5ErkJggg==
+			</helperscreenshot>
+		</touchrecorditem>
+		<touchrecorditem
+		duration="500ms"
+		elementlocation="42;52"
+		enabled="True"
+		fingerid="0"
+		imagerect="201,0,84,112"
+		isremote="True"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		optional="False"
+		searchpropertyid="a3498ba1-81e0-40ba-954b-d5c752216f5c"
+		sx="42"
+		sy="52"
+		touchduration="100ms"
+		touchtype="Touch"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5237e4e9-033c-4b99-a7c8-744d5167df0c"
+			sourcename="RemoteRecorder">
+				<element
+				capabilities="androidelement, mobileuielement"
+				dontcache="True"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="2"
+				prefcap="picture"
+				rect="292,1853,84,112"
+				role="picture"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="resourceid"
+					type="System.String">
+						R.drawable.cart_activity_plus
+					</attribute>
+					<attribute
+					name="rid"
+					type="System.String">
+						cartPlus
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.support.v7.widget.AppCompatImageView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						107068399
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='CartActivity']/androidelement[@rid='content']//container[@containertype='Linear']/container[3]/picture[@resourceid='R.drawable.cart_activity_plus']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="ceb165f7-1567-456d-80e4-85087e1689d4">
+				iVBORw0KGgoAAAANSUhEUgAAAFQAAABwCAYAAACAVlfhAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAIPSURBVHhe7dyvaxxBAMXxk4WImEIhFRWF2ooTFQn3qyX5AwIVMRERERFn6ncnTaG0
+4kRFRUVNRKB/QGVkRUVtIKIigUBMRSF28nZvzW3vurC8kL277wceuZDZsPOYvZswkBYAAAAAAAAA
+AAAAAAAAAFgEsZc+UB7GwdunsX/4fCIbybO4nqzFzY8rxXBUiS/fPVJ5L2Iv7CpJKfuxH7bi4OhJ
+MRxVxiszbGuVjpTTUr6o1INstRbDUSV/tHthOC4wxMmkv5SRxnSL4ahCoWYUakahZhRqRqFmFGpG
+oWYUakahZhRqRqFmFGpGoWYUakahZhRqttSFanKzD9TqppO8jt3wQb/357+FhjPlWNmbem2dNOng
+r+JArWbSz8p35be+LxWaXik/lK/jsZY05+Cv4kCtbrQy03PljyZbLvSvcqFkj/60a+ukOQd/+SMz
+8/1uXtKg92UKNaNQMwo1y7ccnWRHN6Q39vzGDMm3Rpd6rQ+g0uS74Ua51s+yD60p19ZJONHXNyq0
+XUzr/rBtMss2w7qRx/mjr0fGkmzT3ks/KdnqKRearcxvej2cem29tPPt36v3q8W0FosmuLx/et4F
+CjWjUDMKNaNQMwo1o1AzCjWjUDMKNaNQMwo1o1AzCjWjUDMKNaNQMwo1+//BX4MO1OYF/4DArOLg
+b7EP1AAAAAAAAAAAAAAAAAAAWDKt1i1kDeexLW3GPQAAAABJRU5ErkJggg==
+			</helperscreenshot>
+		</touchrecorditem>
+		<touchrecorditem
+		duration="500ms"
+		elementlocation="42;42"
+		enabled="True"
+		fingerid="0"
+		imagerect="201,0,84,112"
+		isremote="True"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		optional="False"
+		searchpropertyid="42b10816-30e6-4042-bd7f-d4a55f7826c3"
+		sx="42"
+		sy="42"
+		touchduration="100ms"
+		touchtype="Touch"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5237e4e9-033c-4b99-a7c8-744d5167df0c"
+			sourcename="RemoteRecorder">
+				<element
+				capabilities="androidelement, mobileuielement"
+				dontcache="True"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="2"
+				prefcap="picture"
+				rect="292,1853,84,112"
+				role="picture"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="resourceid"
+					type="System.String">
+						R.drawable.cart_activity_plus
+					</attribute>
+					<attribute
+					name="rid"
+					type="System.String">
+						cartPlus
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.support.v7.widget.AppCompatImageView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						107068399
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='CartActivity']/androidelement[@rid='content']//container[@containertype='Linear']/container[3]/picture[@resourceid='R.drawable.cart_activity_plus']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="04dbcbe1-4085-475b-8d8d-b4e5d64ac769">
+				iVBORw0KGgoAAAANSUhEUgAAAFQAAABwCAYAAACAVlfhAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAIPSURBVHhe7dyvaxxBAMXxk4WImEIhFRWF2ooTFQn3qyX5AwIVMRERERFn6ncnTaG0
+4kRFRUVNRKB/QGVkRUVtIKIigUBMRSF28nZvzW3vurC8kL277wceuZDZsPOYvZswkBYAAAAAAAAA
+AAAAAAAAAFgEsZc+UB7GwdunsX/4fCIbybO4nqzFzY8rxXBUiS/fPVJ5L2Iv7CpJKfuxH7bi4OhJ
+MRxVxiszbGuVjpTTUr6o1INstRbDUSV/tHthOC4wxMmkv5SRxnSL4ahCoWYUakahZhRqRqFmFGpG
+oWYUakahZhRqRqFmFGpGoWYUakahZhRqttSFanKzD9TqppO8jt3wQb/357+FhjPlWNmbem2dNOng
+r+JArWbSz8p35be+LxWaXik/lK/jsZY05+Cv4kCtbrQy03PljyZbLvSvcqFkj/60a+ukOQd/+SMz
+8/1uXtKg92UKNaNQMwo1y7ccnWRHN6Q39vzGDMm3Rpd6rQ+g0uS74Ua51s+yD60p19ZJONHXNyq0
+XUzr/rBtMss2w7qRx/mjr0fGkmzT3ks/KdnqKRearcxvej2cem29tPPt36v3q8W0FosmuLx/et4F
+CjWjUDMKNaNQMwo1o1AzCjWjUDMKNaNQMwo1o1AzCjWjUDMKNaNQMwo1+//BX4MO1OYF/4DArOLg
+b7EP1AAAAAAAAAAAAAAAAAAAWDKt1i1kDeexLW3GPQAAAABJRU5ErkJggg==
+			</helperscreenshot>
+		</touchrecorditem>
+		<touchrecorditem
+		duration="500ms"
+		elementlocation="32;47"
+		enabled="True"
+		fingerid="0"
+		imagerect="201,0,84,112"
+		isremote="True"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		optional="False"
+		searchpropertyid="6e94719f-9091-4d16-9a86-6e37a69f6d92"
+		sx="32"
+		sy="47"
+		touchduration="100ms"
+		touchtype="Touch"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5237e4e9-033c-4b99-a7c8-744d5167df0c"
+			sourcename="RemoteRecorder">
+				<element
+				capabilities="androidelement, mobileuielement"
+				dontcache="True"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="2"
+				prefcap="picture"
+				rect="292,1853,84,112"
+				role="picture"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="resourceid"
+					type="System.String">
+						R.drawable.cart_activity_plus
+					</attribute>
+					<attribute
+					name="rid"
+					type="System.String">
+						cartPlus
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.support.v7.widget.AppCompatImageView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						107068399
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='CartActivity']/androidelement[@rid='content']//container[@containertype='Linear']/container[3]/picture[@resourceid='R.drawable.cart_activity_plus']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="a9bc48a5-c216-481f-bfc1-392452dff0b9">
+				iVBORw0KGgoAAAANSUhEUgAAAFQAAABwCAYAAACAVlfhAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAIPSURBVHhe7dyvaxxBAMXxk4WImEIhFRWF2ooTFQn3qyX5AwIVMRERERFn6ncnTaG0
+4kRFRUVNRKB/QGVkRUVtIKIigUBMRSF28nZvzW3vurC8kL277wceuZDZsPOYvZswkBYAAAAAAAAA
+AAAAAAAAAFgEsZc+UB7GwdunsX/4fCIbybO4nqzFzY8rxXBUiS/fPVJ5L2Iv7CpJKfuxH7bi4OhJ
+MRxVxiszbGuVjpTTUr6o1INstRbDUSV/tHthOC4wxMmkv5SRxnSL4ahCoWYUakahZhRqRqFmFGpG
+oWYUakahZhRqRqFmFGpGoWYUakahZhRqttSFanKzD9TqppO8jt3wQb/357+FhjPlWNmbem2dNOng
+r+JArWbSz8p35be+LxWaXik/lK/jsZY05+Cv4kCtbrQy03PljyZbLvSvcqFkj/60a+ukOQd/+SMz
+8/1uXtKg92UKNaNQMwo1y7ccnWRHN6Q39vzGDMm3Rpd6rQ+g0uS74Ua51s+yD60p19ZJONHXNyq0
+XUzr/rBtMss2w7qRx/mjr0fGkmzT3ks/KdnqKRearcxvej2cem29tPPt36v3q8W0FosmuLx/et4F
+CjWjUDMKNaNQMwo1o1AzCjWjUDMKNaNQMwo1o1AzCjWjUDMKNaNQMwo1+//BX4MO1OYF/4DArOLg
+b7EP1AAAAAAAAAAAAAAAAAAAWDKt1i1kDeexLW3GPQAAAABJRU5ErkJggg==
+			</helperscreenshot>
+		</touchrecorditem>
+		<touchrecorditem
+		duration="500ms"
+		elementlocation="32;47"
+		enabled="True"
+		fingerid="0"
+		imagerect="201,0,84,112"
+		isremote="True"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		optional="False"
+		searchpropertyid="47eeeb26-54ce-4ec1-ab06-0b0265c47776"
+		sx="32"
+		sy="47"
+		touchduration="100ms"
+		touchtype="Touch"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5237e4e9-033c-4b99-a7c8-744d5167df0c"
+			sourcename="RemoteRecorder">
+				<element
+				capabilities="androidelement, mobileuielement"
+				dontcache="True"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="2"
+				prefcap="picture"
+				rect="292,1853,84,112"
+				role="picture"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="resourceid"
+					type="System.String">
+						R.drawable.cart_activity_plus
+					</attribute>
+					<attribute
+					name="rid"
+					type="System.String">
+						cartPlus
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.support.v7.widget.AppCompatImageView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						107068399
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='CartActivity']/androidelement[@rid='content']//container[@containertype='Linear']/container[3]/picture[@resourceid='R.drawable.cart_activity_plus']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="237bd38e-1dbd-4221-b45e-055985bee6ce">
+				iVBORw0KGgoAAAANSUhEUgAAAFQAAABwCAYAAACAVlfhAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAIPSURBVHhe7dyvaxxBAMXxk4WImEIhFRWF2ooTFQn3qyX5AwIVMRERERFn6ncnTaG0
+4kRFRUVNRKB/QGVkRUVtIKIigUBMRSF28nZvzW3vurC8kL277wceuZDZsPOYvZswkBYAAAAAAAAA
+AAAAAAAAAFgEsZc+UB7GwdunsX/4fCIbybO4nqzFzY8rxXBUiS/fPVJ5L2Iv7CpJKfuxH7bi4OhJ
+MRxVxiszbGuVjpTTUr6o1INstRbDUSV/tHthOC4wxMmkv5SRxnSL4ahCoWYUakahZhRqRqFmFGpG
+oWYUakahZhRqRqFmFGpGoWYUakahZhRqttSFanKzD9TqppO8jt3wQb/357+FhjPlWNmbem2dNOng
+r+JArWbSz8p35be+LxWaXik/lK/jsZY05+Cv4kCtbrQy03PljyZbLvSvcqFkj/60a+ukOQd/+SMz
+8/1uXtKg92UKNaNQMwo1y7ccnWRHN6Q39vzGDMm3Rpd6rQ+g0uS74Ua51s+yD60p19ZJONHXNyq0
+XUzr/rBtMss2w7qRx/mjr0fGkmzT3ks/KdnqKRearcxvej2cem29tPPt36v3q8W0FosmuLx/et4F
+CjWjUDMKNaNQMwo1o1AzCjWjUDMKNaNQMwo1o1AzCjWjUDMKNaNQMwo1+//BX4MO1OYF/4DArOLg
+b7EP1AAAAAAAAAAAAAAAAAAAWDKt1i1kDeexLW3GPQAAAABJRU5ErkJggg==
+			</helperscreenshot>
+		</touchrecorditem>
+		<touchrecorditem
+		duration="500ms"
+		elementlocation="32;47"
+		enabled="True"
+		fingerid="0"
+		imagerect="201,0,84,112"
+		isremote="True"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		optional="False"
+		searchpropertyid="1e183a17-8ba2-4484-bd47-ba1b392dad3b"
+		sx="32"
+		sy="47"
+		touchduration="100ms"
+		touchtype="Touch"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5237e4e9-033c-4b99-a7c8-744d5167df0c"
+			sourcename="RemoteRecorder">
+				<element
+				capabilities="androidelement, mobileuielement"
+				dontcache="True"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="2"
+				prefcap="picture"
+				rect="292,1853,84,112"
+				role="picture"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="resourceid"
+					type="System.String">
+						R.drawable.cart_activity_plus
+					</attribute>
+					<attribute
+					name="rid"
+					type="System.String">
+						cartPlus
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.support.v7.widget.AppCompatImageView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						107068399
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='CartActivity']/androidelement[@rid='content']//container[@containertype='Linear']/container[3]/picture[@resourceid='R.drawable.cart_activity_plus']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="df236729-479c-4213-8ad9-c0b3b51b22a6">
+				iVBORw0KGgoAAAANSUhEUgAAAFQAAABwCAYAAACAVlfhAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAIPSURBVHhe7dyvaxxBAMXxk4WImEIhFRWF2ooTFQn3qyX5AwIVMRERERFn6ncnTaG0
+4kRFRUVNRKB/QGVkRUVtIKIigUBMRSF28nZvzW3vurC8kL277wceuZDZsPOYvZswkBYAAAAAAAAA
+AAAAAAAAAFgEsZc+UB7GwdunsX/4fCIbybO4nqzFzY8rxXBUiS/fPVJ5L2Iv7CpJKfuxH7bi4OhJ
+MRxVxiszbGuVjpTTUr6o1INstRbDUSV/tHthOC4wxMmkv5SRxnSL4ahCoWYUakahZhRqRqFmFGpG
+oWYUakahZhRqRqFmFGpGoWYUakahZhRqttSFanKzD9TqppO8jt3wQb/357+FhjPlWNmbem2dNOng
+r+JArWbSz8p35be+LxWaXik/lK/jsZY05+Cv4kCtbrQy03PljyZbLvSvcqFkj/60a+ukOQd/+SMz
+8/1uXtKg92UKNaNQMwo1y7ccnWRHN6Q39vzGDMm3Rpd6rQ+g0uS74Ua51s+yD60p19ZJONHXNyq0
+XUzr/rBtMss2w7qRx/mjr0fGkmzT3ks/KdnqKRearcxvej2cem29tPPt36v3q8W0FosmuLx/et4F
+CjWjUDMKNaNQMwo1o1AzCjWjUDMKNaNQMwo1o1AzCjWjUDMKNaNQMwo1+//BX4MO1OYF/4DArOLg
+b7EP1AAAAAAAAAAAAAAAAAAAWDKt1i1kDeexLW3GPQAAAABJRU5ErkJggg==
+			</helperscreenshot>
+		</touchrecorditem>
+		<touchrecorditem
+		duration="500ms"
+		elementlocation="30;47"
+		enabled="True"
+		fingerid="0"
+		imagerect="248,0,84,112"
+		isremote="True"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		optional="False"
+		searchpropertyid="57518708-ab85-4ee4-a173-9de669808b8a"
+		sx="30"
+		sy="47"
+		touchduration="100ms"
+		touchtype="Touch"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5237e4e9-033c-4b99-a7c8-744d5167df0c"
+			sourcename="RemoteRecorder">
+				<element
+				capabilities="androidelement, mobileuielement"
+				dontcache="True"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="2"
+				prefcap="picture"
+				rect="339,1853,84,112"
+				role="picture"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="resourceid"
+					type="System.String">
+						R.drawable.cart_activity_plus
+					</attribute>
+					<attribute
+					name="rid"
+					type="System.String">
+						cartPlus
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.support.v7.widget.AppCompatImageView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						107068399
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='CartActivity']/androidelement[@rid='content']//container[@containertype='Linear']/container[3]/picture[@resourceid='R.drawable.cart_activity_plus']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="7b924b48-543b-4310-bdaa-c4165e9b99fc">
+				iVBORw0KGgoAAAANSUhEUgAAAFQAAABwCAYAAACAVlfhAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAIPSURBVHhe7dyvaxxBAMXxk4WImEIhFRWF2ooTFQn3qyX5AwIVMRERERFn6ncnTaG0
+4kRFRUVNRKB/QGVkRUVtIKIigUBMRSF28nZvzW3vurC8kL277wceuZDZsPOYvZswkBYAAAAAAAAA
+AAAAAAAAAFgEsZc+UB7GwdunsX/4fCIbybO4nqzFzY8rxXBUiS/fPVJ5L2Iv7CpJKfuxH7bi4OhJ
+MRxVxiszbGuVjpTTUr6o1INstRbDUSV/tHthOC4wxMmkv5SRxnSL4ahCoWYUakahZhRqRqFmFGpG
+oWYUakahZhRqRqFmFGpGoWYUakahZhRqttSFanKzD9TqppO8jt3wQb/357+FhjPlWNmbem2dNOng
+r+JArWbSz8p35be+LxWaXik/lK/jsZY05+Cv4kCtbrQy03PljyZbLvSvcqFkj/60a+ukOQd/+SMz
+8/1uXtKg92UKNaNQMwo1y7ccnWRHN6Q39vzGDMm3Rpd6rQ+g0uS74Ua51s+yD60p19ZJONHXNyq0
+XUzr/rBtMss2w7qRx/mjr0fGkmzT3ks/KdnqKRearcxvej2cem29tPPt36v3q8W0FosmuLx/et4F
+CjWjUDMKNaNQMwo1o1AzCjWjUDMKNaNQMwo1o1AzCjWjUDMKNaNQMwo1+//BX4MO1OYF/4DArOLg
+b7EP1AAAAAAAAAAAAAAAAAAAWDKt1i1kDeexLW3GPQAAAABJRU5ErkJggg==
+			</helperscreenshot>
+		</touchrecorditem>
+		<touchrecorditem
+		duration="500ms"
+		elementlocation="40;54"
+		enabled="True"
+		fingerid="0"
+		imagerect="248,0,84,112"
+		isremote="True"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		optional="False"
+		searchpropertyid="0b98a542-2e1b-46d6-b9df-bf784a5730c4"
+		sx="40"
+		sy="54"
+		touchduration="100ms"
+		touchtype="Touch"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5237e4e9-033c-4b99-a7c8-744d5167df0c"
+			sourcename="RemoteRecorder">
+				<element
+				capabilities="androidelement, mobileuielement"
+				dontcache="True"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="2"
+				prefcap="picture"
+				rect="339,1866,84,112"
+				role="picture"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="resourceid"
+					type="System.String">
+						R.drawable.cart_activity_plus
+					</attribute>
+					<attribute
+					name="rid"
+					type="System.String">
+						cartPlus
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.support.v7.widget.AppCompatImageView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						107068399
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='CartActivity']/androidelement[@rid='content']//container[@containertype='Linear']/container[3]/picture[@resourceid='R.drawable.cart_activity_plus']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="59ec924b-6311-4573-9e94-dd454a5fff54">
+				iVBORw0KGgoAAAANSUhEUgAAAFQAAABwCAYAAACAVlfhAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAIPSURBVHhe7dyvaxxBAMXxk4WImEIhFRWF2ooTFQn3qyX5AwIVMRERERFn6ncnTaG0
+4kRFRUVNRKB/QGVkRUVtIKIigUBMRSF28nZvzW3vurC8kL277wceuZDZsPOYvZswkBYAAAAAAAAA
+AAAAAAAAAFgEsZc+UB7GwdunsX/4fCIbybO4nqzFzY8rxXBUiS/fPVJ5L2Iv7CpJKfuxH7bi4OhJ
+MRxVxiszbGuVjpTTUr6o1INstRbDUSV/tHthOC4wxMmkv5SRxnSL4ahCoWYUakahZhRqRqFmFGpG
+oWYUakahZhRqRqFmFGpGoWYUakahZhRqttSFanKzD9TqppO8jt3wQb/357+FhjPlWNmbem2dNOng
+r+JArWbSz8p35be+LxWaXik/lK/jsZY05+Cv4kCtbrQy03PljyZbLvSvcqFkj/60a+ukOQd/+SMz
+8/1uXtKg92UKNaNQMwo1y7ccnWRHN6Q39vzGDMm3Rpd6rQ+g0uS74Ua51s+yD60p19ZJONHXNyq0
+XUzr/rBtMss2w7qRx/mjr0fGkmzT3ks/KdnqKRearcxvej2cem29tPPt36v3q8W0FosmuLx/et4F
+CjWjUDMKNaNQMwo1o1AzCjWjUDMKNaNQMwo1o1AzCjWjUDMKNaNQMwo1+//BX4MO1OYF/4DArOLg
+b7EP1AAAAAAAAAAAAAAAAAAAWDKt1i1kDeexLW3GPQAAAABJRU5ErkJggg==
+			</helperscreenshot>
+		</touchrecorditem>
+		<touchrecorditem
+		duration="500ms"
+		elementlocation="25;34"
+		enabled="True"
+		fingerid="0"
+		imagerect="248,0,84,112"
+		isremote="True"
+		longtouchduration="1000ms"
+		moveduration="100ms"
+		optional="False"
+		searchpropertyid="88f79697-93cb-427d-8148-bdc3a84102b2"
+		sx="25"
+		sy="34"
+		touchduration="100ms"
+		touchtype="Touch"
+		warnoutofbounds="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="5237e4e9-033c-4b99-a7c8-744d5167df0c"
+			sourcename="RemoteRecorder">
+				<element
+				capabilities="androidelement, mobileuielement"
+				dontcache="True"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="2"
+				prefcap="picture"
+				rect="339,1866,84,112"
+				role="picture"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="resourceid"
+					type="System.String">
+						R.drawable.cart_activity_plus
+					</attribute>
+					<attribute
+					name="rid"
+					type="System.String">
+						cartPlus
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.support.v7.widget.AppCompatImageView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						107068399
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='CartActivity']/androidelement[@rid='content']//container[@containertype='Linear']/container[3]/picture[@resourceid='R.drawable.cart_activity_plus']
+				</path>
+			</info>
+			<helperscreenshot
+			guid="5e66d251-bcc9-408e-a753-8ed9dc0ea414">
+				iVBORw0KGgoAAAANSUhEUgAAAFQAAABwCAYAAACAVlfhAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAIPSURBVHhe7dyvaxxBAMXxk4WImEIhFRWF2ooTFQn3qyX5AwIVMRERERFn6ncnTaG0
+4kRFRUVNRKB/QGVkRUVtIKIigUBMRSF28nZvzW3vurC8kL277wceuZDZsPOYvZswkBYAAAAAAAAA
+AAAAAAAAAFgEsZc+UB7GwdunsX/4fCIbybO4nqzFzY8rxXBUiS/fPVJ5L2Iv7CpJKfuxH7bi4OhJ
+MRxVxiszbGuVjpTTUr6o1INstRbDUSV/tHthOC4wxMmkv5SRxnSL4ahCoWYUakahZhRqRqFmFGpG
+oWYUakahZhRqRqFmFGpGoWYUakahZhRqttSFanKzD9TqppO8jt3wQb/357+FhjPlWNmbem2dNOng
+r+JArWbSz8p35be+LxWaXik/lK/jsZY05+Cv4kCtbrQy03PljyZbLvSvcqFkj/60a+ukOQd/+SMz
+8/1uXtKg92UKNaNQMwo1y7ccnWRHN6Q39vzGDMm3Rpd6rQ+g0uS74Ua51s+yD60p19ZJONHXNyq0
+XUzr/rBtMss2w7qRx/mjr0fGkmzT3ks/KdnqKRearcxvej2cem29tPPt36v3q8W0FosmuLx/et4F
+CjWjUDMKNaNQMwo1o1AzCjWjUDMKNaNQMwo1o1AzCjWjUDMKNaNQMwo1+//BX4MO1OYF/4DArOLg
+b7EP1AAAAAAAAAAAAAAAAAAAWDKt1i1kDeexLW3GPQAAAABJRU5ErkJggg==
+			</helperscreenshot>
+		</touchrecorditem>
+		<validationitem
+		action="AttributeEqual"
+		duration="100ms"
+		enabled="True"
+		optional="False"
+		searchpropertyid="292bfc87-d4c9-44c8-a243-237287de131a">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="70721426-6d17-4584-a9e2-f8ca11098180"
+			sourcename="ElementTree">
+				<element
+				capabilities="androidelement, mobileuielement"
+				dontcache="True"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="1"
+				prefcap="text"
+				rect="56,1390,590,70"
+				role="text"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="text"
+					type="System.String">
+						10 products remaining!
+					</attribute>
+					<attribute
+					name="rid"
+					type="System.String">
+						error_count
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						android.support.v7.widget.AppCompatTextView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						218345090
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='CartActivity']/androidelement[@rid='content']//container[@containertype='Linear']/container[2]/text[@rid='error_count']
+				</path>
+			</info>
+			<matchname>
+				Text
+			</matchname>
+			<matchvalue>
+				10 products remaining!
+			</matchvalue>
+		</validationitem>
+		<remotekeyboardrecorditem
+		duration="100ms"
+		enabled="True"
+		imagerect="0,0,1440,2560"
+		key="{BACK}"
+		optional="False"
+		searchpropertyid="93c6f7d8-395c-4181-96b1-de35c9acfe34">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="04b6d882-d24e-40cc-a987-950b64334be0"
+			sourcename="RemoteRecorder">
+				<element
+				capabilities="mobileform, mobileuielement"
+				dontcache="True"
+				enabled="True"
+				flavor="mobile"
+				hasfocus="False"
+				index="0"
+				minattr="1"
+				prefcap="form"
+				rect="0,0,1440,2560"
+				role="form"
+				snapElem=""
+				valid="True"
+				visible="True">
+					<attribute
+					name="active"
+					type="System.Boolean">
+						True
+					</attribute>
+					<attribute
+					name="title"
+					type="System.String">
+						CartActivity
+					</attribute>
+					<attribute
+					name="formtype"
+					type="System.String">
+						Window
+					</attribute>
+					<attribute
+					name="platformclass"
+					type="System.String">
+						com.android.internal.policy.DecorView
+					</attribute>
+					<attribute
+					name="temporaryelementid"
+					type="System.Int32">
+						60387910
+					</attribute>
+				</element>
+				<path>
+					/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='CartActivity']
+				</path>
+			</info>
+		</remotekeyboardrecorditem>
+	</recorditems>
+	<repository
+	id="6d179ac9-7928-43b1-940f-c5b84368540d"
+	name="HackatonRepository"
+	relativepath="HackatonRepository.rxrep"
+	rxversion="7.2">
+		<codegen
+		classname="HackatonRepository"
+		namespace="Hackaton">
+		</codegen>
+		<rootfolder
+		id="d62d42c1-62cf-425e-8c2b-a70bf130eabe"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		MoreThan10Validation.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

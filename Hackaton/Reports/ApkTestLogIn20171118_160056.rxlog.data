@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="4d9cdd9ca16ada0"
+		totalerrorcount="0"
+		totalwarningcount="2"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		user="Mykola"
+		rxversion="7.2.1.0"
+		host="DESKTOP-6SSJG4S"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="uk-UA"
+		dtnlanguage="uk-UA"
+		screenresolution="1366x768"
+		timestamp="18.11.2017 16:01:00"
+		timestampiso="2017-11-18T14:01:00"
+		endtime="18.11.2017 16:02:04"
+		timeoutfactor="1"
+		module="ApkTestLogIn">
+		<detail>
+			ApkTestLogIn
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.020"
+			timeRelativeToTestModuleStartTime="00:01.020"
+			timeWallClock="16:01:01"
+			time="00:01.020"
+			level="Warn"
+			category="Data">
+			<message>
+				The following module variables are not bound to a data column:<br/>picture
+			</message>
+			<metainfo
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:01.052"
+			timeRelativeToTestModuleStartTime="00:01.052"
+			timeWallClock="16:01:01"
+			time="00:01.052"
+			level="Info"
+			category="Application">
+			<message>
+				Run mobile app 'com.hackaton.epam.tahackaton' on device 'emulator-5554'.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\ApkTestLogIn.cs"
+				codeline="95"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.439"
+			timeRelativeToTestModuleStartTime="00:08.439"
+			timeWallClock="16:01:09"
+			time="00:08.439"
+			level="Info"
+			category="Set Value">
+			<message>
+				Setting attribute Text to 'hackaton.epam.ta@gmail.com' on item 'ComHackatonEpamTahackaton.LoginForm.Email'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='LoginActivity']//container[@rid='login_form']/container[@rid='email_login_form']//text[@rid='email']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.LoginForm.Email"
+				id="4740653efc114d29807337f9c1c963f2"
+				timeout="90000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\ApkTestLogIn.cs"
+				codeline="99"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.034"
+			timeRelativeToTestModuleStartTime="00:12.034"
+			timeWallClock="16:01:12"
+			time="00:12.034"
+			level="Warn"
+			category="Qt">
+			<message>
+				Failed to instrument Qt process. Please make sure you have enough privileges to access the process and a supported version of Qt.<br/>Process: 'qemu-system-i386' (pid 2228)<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="QtWindow"
+				showInProgressDialog="False"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\ApkTestLogIn.cs"
+				codeline="100"
+				loglvl="Warn"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.257"
+			timeRelativeToTestModuleStartTime="00:12.257"
+			timeWallClock="16:01:13"
+			time="00:12.257"
+			level="Info"
+			category="Set Value">
+			<message>
+				Setting attribute Text to '21wqsaxz' on item 'ComHackatonEpamTahackaton.LoginForm.Password'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='LoginActivity']//container[@rid='login_form']/container[@rid='email_login_form']//text[@rid='password']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.LoginForm.Password"
+				id="a6072ce7899e450085f23d78429969ce"
+				timeout="90000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\ApkTestLogIn.cs"
+				codeline="103"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:15.504"
+			timeRelativeToTestModuleStartTime="00:15.504"
+			timeWallClock="16:01:16"
+			time="00:15.504"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComHackatonEpamTahackaton.LoginForm.EmailSignInButton' at 586;39
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='LoginActivity']//container[@rid='login_form']/?/?/button[@resourceid='R.string.action_sign_in']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.LoginForm.EmailSignInButton"
+				id="0f08e39016394100af32adf3c0a97998"
+				timeout="90000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\ApkTestLogIn.cs"
+				codeline="107"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:19.335"
+			timeRelativeToTestModuleStartTime="00:19.335"
+			timeWallClock="16:01:20"
+			time="00:19.335"
+			level="Info"
+			category="Get Value">
+			<message>
+				Getting attribute 'picture' from item 'ComHackatonEpamTahackaton.BskImgThird' and assigning its value to variable 'picture'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='BasketActivity']/androidelement[@rid='content']//picture[@resourceid='R.drawable.basket_activity_third_product']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.BskImgThird"
+				id="59a4580f504e422d85a6937b558f2068"
+				timeout="60000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\ApkTestLogIn.cs"
+				codeline="111"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:44.357"
+			timeRelativeToTestModuleStartTime="00:44.357"
+			timeWallClock="16:01:45"
+			time="00:44.357"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating CompareImage (Screenshot: 'Screenshot1' with region {X=0,Y=0,Width=294,Height=406}) on item 'ComHackatonEpamTahackaton.BskImgThird'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='BasketActivity']/androidelement[@rid='content']//picture[@resourceid='R.drawable.basket_activity_third_product']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.BskImgThird"
+				id="59a4580f504e422d85a6937b558f2068"
+				timeout="60000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\ApkTestLogIn.cs"
+				codeline="115"
+				itemindex="5"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:45.912"
+			timeRelativeToTestModuleStartTime="00:45.912"
+			timeWallClock="16:01:46"
+			time="00:45.912"
+			level="Success"
+			category="Validation">
+			<message>
+				Screenshot of item 'HackatonRepository.ComHackatonEpamTahackaton.BskImgThird' does match the specified image.
+			</message>
+			<metainfo
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\ApkTestLogIn.cs"
+				codeline="116"
+				loglvl="Success"
+				id="59a4580f504e422d85a6937b558f2068"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='BasketActivity']/androidelement[@rid='content']//picture[@resourceid='R.drawable.basket_activity_third_product']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.BskImgThird"
+				itemindex="5">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:45.917"
+			timeRelativeToTestModuleStartTime="00:45.917"
+			timeWallClock="16:01:46"
+			time="00:45.917"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComHackatonEpamTahackaton.BskImgThird' at 131;182
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='BasketActivity']/androidelement[@rid='content']//picture[@resourceid='R.drawable.basket_activity_third_product']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.BskImgThird"
+				id="59a4580f504e422d85a6937b558f2068"
+				timeout="60000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\ApkTestLogIn.cs"
+				codeline="119"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:50.821"
+			timeRelativeToTestModuleStartTime="00:50.821"
+			timeWallClock="16:01:51"
+			time="00:50.821"
+			level="Info"
+			category="Touch">
+			<message>
+				Touch item 'ComHackatonEpamTahackaton.CartMinus' at 39;49
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='CartActivity']/androidelement[@rid='content']//container[@containertype='Linear']/container[3]/picture[@resourceid='R.drawable.cart_activity_minus']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.CartMinus"
+				id="54551b214b1c4c53b32d52245ee1ab9c"
+				timeout="60000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\ApkTestLogIn.cs"
+				codeline="123"
+				itemindex="7"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:00.256"
+			timeRelativeToTestModuleStartTime="01:00.256"
+			timeWallClock="16:02:01"
+			time="01:00.256"
+			level="Info"
+			category="Validation">
+			<message>
+				Validating AttributeEqual (Text='Yeah! Like you can have less!') on item 'ComHackatonEpamTahackaton.ErrorCount'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='CartActivity']/androidelement[@rid='content']//container[@containertype='Linear']/container[2]/text[@rid='error_count']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.ErrorCount"
+				id="707214266d174584a9e2f8ca11098180"
+				timeout="60000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\ApkTestLogIn.cs"
+				codeline="127"
+				itemindex="8"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:03.887"
+			timeRelativeToTestModuleStartTime="01:03.887"
+			timeWallClock="16:02:04"
+			time="01:03.887"
+			level="Success"
+			category="Validation">
+			<message>
+				Attribute 'Text' of element for item 'HackatonRepository.ComHackatonEpamTahackaton.ErrorCount' does match the specified value.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/mobileapp[@title='com.hackaton.epam.tahackaton']/form[@title='CartActivity']/androidelement[@rid='content']//container[@containertype='Linear']/container[2]/text[@rid='error_count']"
+				fullname="HackatonRepository.ComHackatonEpamTahackaton.ErrorCount"
+				id="707214266d174584a9e2f8ca11098180"
+				timeout="60000"
+				codefile="c:\Users\Mykola\AppData\Roaming\Skype\My Skype Received Files\Hackaton\Hackaton\ApkTestLogIn.cs"
+				codeline="128"
+				loglvl="Success"
+				itemindex="8">
+			</metainfo>
+		</item>
+	</activity>
+</report>
