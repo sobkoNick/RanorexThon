@@ -1,13 +1,4 @@
-﻿/*
- * Created by Ranorex
- * User: Nazar_Khimin
- * Date: 11/18/2017
- * Time: 2:45 PM
- * 
- * To change this template use Tools | Options | Coding | Edit Standard Headers.
- */
-
-using System;
+﻿using System;
 using System.Threading;
 using System.Drawing;
 using System.Collections.Generic;

@@ -1,9 +1,10 @@
 ﻿<Properties>
   <Array name="active">
-    <Element value="Hackaton.rxtst" />
+    <Element value="Program.cs" />
   </Array>
   <Array name="bookmarks" />
   <Array name="files">
+    <Element value="Program.cs" />
     <Element value="BuyProduct.rxrec" />
     <Element value="ContactUs.rxrec" />
     <Element value="MoreThan10Validation.rxrec" />
